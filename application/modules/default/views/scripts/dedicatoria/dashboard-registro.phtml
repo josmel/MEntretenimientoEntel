@@ -1,0 +1,97 @@
+<div id="prueba_master" class="wlp-bighorn-book">
+    <div class="wlp-bighorn-book-content">
+        <div class="wlp-bighorn-layout wlp-bighorn-layout-flow">
+            <div class="wlp-bighorn-layout-cell wlp-bighorn-layout-flow-horizontal wlp-bighorn-layout-flow-first" style="width: 100%">
+                <table class="artist-photo">
+                    <tr>
+                        <td class="artist" style="background-color: white">
+                            <div class="artist-text">
+                                <div class="title-img">
+
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="artist" colspan=2 style="background-color: orange">
+                            <div class="artist-text">
+                                <div class="title-img" style="border:none;background-color: 
+                                     orange;color: white;font-size:18px">
+                                    CANTIDAD
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artist"   style="background-color: orange">
+                            <div class="artist-text">
+                                <div class="title-img" style="border:none;background-color: 
+                                     orange;color: white;font-size:18px">
+                                    PERFIL 1
+                                </div>
+                            </div>
+                        </td>
+                        <td class="artist"  colspan=2 >
+                            <div class="artist-text">
+                                <div class="title-img"  style="color: black;font-size:20px">
+                                       <?php echo $this->registro[0]["cantidad"] ?>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artist" style="background-color: orange">
+                            <div class="artist-text">
+                                <div class="title-img" style="border:none;background-color: 
+                                     orange;color: white;font-size:18px">
+                                    PEFIL 2
+                                </div>
+                            </div>
+                        </td>
+                        <td class="artist"  colspan=2 >
+                            <div class="artist-text">
+                                <div class="title-img" style="color: black;font-size:20px">
+                                      <?php echo $this->registro[1]["cantidad"] ?>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artist" style="background-color: orange">
+                            <div class="artist-text">
+                                <div class="title-img" style="border:none;background-color: 
+                                     orange;color: white;font-size:18px">
+                                    PEFIL 3
+                                </div>
+                            </div>
+                        </td>
+                        <td class="artist"  colspan=2 >
+                            <div class="artist-text">
+                                <div class="title-img" style="color: black;font-size:20px">
+                                      <?php echo $this->registro[2]["cantidad"] ?>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="artist"   style="background-color: #0073AE">
+                            <div class="artist-text">
+                                <div class="title-img" style="color: white;font-size:18px">
+                                    TOTAL
+                                </div>
+                            </div>
+                        </td>
+                        <td class="artist"  colspan=2 style="background-color: #0073AE">
+                            <div class="artist-text">
+                                <div class="title-img" style="color: white;font-size:22px">
+                                    <?php echo ($this->registro[0]["cantidad"] + $this->registro[1]["cantidad"]+ $this->registro[2]["cantidad"]) ?>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>

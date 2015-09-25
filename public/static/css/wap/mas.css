@@ -1,0 +1,19 @@
+ul, li{ margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+ 
+/* Nuevo BoxLosMÃ¡s */
+.nuevo-boxlosmas{ float: left; margin-bottom: 20px; width: 100%; }
+.nuevo-boxlosmas h3.caption{box-shadow: 0 0 6px rgba(0, 0, 0, 0.4) inset; display: inline-block; float: left; font: 13px/32px 'prelobold'; margin-bottom: 10px; padding: 0 10px; text-transform: uppercase; width: 137px; }
+.nuevo-boxlosmas .ui-tab-content ul li{border-bottom: 1px solid #605f5d; float: left; }
+.nuevo-boxlosmas .ui-tab-content ul li:last-child{border-bottom: 0; }
+.nuevo-boxlosmas .ui-tab-content ul li .num{color: #3a3636; float: left; font: 29px 'preloblack'; padding-top: 6px; text-align: center; width: 50px; }
+
+
+.nuevo-boxlosmas .ui-tab-content ul li .nota{background-color: #4b4b4b; float: left; min-height: 40px; padding: 8px 5px 2px; position: relative; width: 100%; }
+.nuevo-boxlosmas .ui-tab-content ul li .nota h3{line-height: 0; margin: 0; margin-bottom: 10px; }
+.nuevo-boxlosmas .ui-tab-content ul li .nota h3 a{color: #FFFFFF; font: 11px 'preloextrabold'; text-transform: uppercase; }
+
+.nuevo-boxlosmas .ui-tab-content ul li.top-1{ background-color: #ea7e00; }
+.nuevo-boxlosmas .ui-tab-content ul li .nota span{ color: #eaa800; }
+.nuevo-boxlosmas h3.caption{ background: #f9c500; color: #413f39; }
+

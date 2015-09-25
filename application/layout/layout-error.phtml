@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <?= $this->headTitle() ?>
+        <?= $this->headMeta() ?>
+        <meta http-equiv="Pragma" content="no-cache">
+            <meta http-equiv="expires" content="0">
+                <link rel="shortcut icon" href="<?php echo MEDIA_URL ?>favicon.ico" />
+                <!-- css -->
+                <link href="<?php echo MEDIA_URL ?>css/wap/general.css"
+                      rel="stylesheet" />
+                <link href="<?php echo MEDIA_URL ?>css/wap/basico240.css"
+                      rel="stylesheet" />
+                </head>
+                <body>
+                    <div class="page">
+                        <div id="titulo" class="clearfix">
+                            <div class="titulo-pagina">WAP ENTEL</div>
+                        </div>
+                    </div>
+                    <br/>
+
+                    <?= $this->layout()->content ?>
+                    <!--Footer-->                                
+                    <br/> <!--LEGAL-->
+                   
+                    <br>
+                        <table class="artist-photo">
+                            <tr>
+                                <td class="artist" style="background-color: #0073ae">
+                                    <div class="artist-text">
+                                        <div class="title-img">
+                                            <a class="text-title" style="font-weight:bold ;color: white;font-size:16px;" href="/go?link=/legal">
+                                                LEGAL
+                                            </a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                </body>
+                </html>

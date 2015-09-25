@@ -1,0 +1,21 @@
+
+.fila-impar{background:#ededed;}
+
+
+.fila-par,.fila-impar{display:block;height:62px;overflow:hidden;margin-bottom:5px;}
+ul.contenido-listado-lista li.nro-uno{height:142px;margin-bottom:7px;}
+ul.contenido-listado-lista li.nro-uno-mega-planeta{height:182px;}
+ul.contenido-listado-lista li.mega-planeta{height:115px;}
+
+ul.contenido-listado-lista li span.puesto{background:#D80377;color:#fff;display:block;float:left;font-family:Impact,Charcoal,sans-serif;font-size:40px;height:62px;width:37px;}ul.contenido-listado-lista li.nro-uno span.puesto{font-size:110px;height:142px;line-height:100px;}ul.contenido-listado-lista li.nro-uno-mega-planeta span.puesto{height:182px;}
+ul.contenido-listado-lista li.mega-planeta span.puesto{font-size:60px;height:115px;}
+ul.contenido-listado-lista li.nro-uno span.puesto p{margin-left:-10px;}
+ul.contenido-listado-lista li img{background:#fff;float:left;padding:0 7px 0 5px;}
+.contenido-listado-contenido{float:left;padding:12px 10px 12px 85px;width:445px;}
+li.nro-uno .contenido-listado-contenido{padding:0 0 0 35px;width:455px;}
+
+
+.canciones-internal{padding:0 0 0 40px;}
+li.nro-uno-mega-planeta .contenido-listado-contenido{float:left;padding:0 0 0 5px !important;width:460px;}li.mega-planeta .contenido-listado-contenido{float:left;padding:12px 5px 12px 50px !important;width:455px;}.contenido-listado li.nro-uno-mega-planeta h4,.contenido-listado li.mega-planeta h4{background:none !important;border:none !important;border-bottom:1px dotted #a5a5a5 !important;color:#aaa !important;font-family:Impact,Charcoal,sans-serif;font-size:30px !important;line-height:30px !important;margin-bottom:10px;padding:3px 0 10px !important;text-transform:uppercase;}
+
+.fila-impar{display:block;height:auto;margin-bottom:5px;overflow:hidden;}
